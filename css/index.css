@@ -1,0 +1,36 @@
+.servicos {
+  padding: 2rem;
+}
+
+.sobre {
+  padding: 3rem 1rem;
+  background: #f9f9f9;
+}
+
+.sobre-conteudo {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sobre-imagem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cta-section {
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .sobre-conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+}

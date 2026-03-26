@@ -1,0 +1,17 @@
+.servicos {
+  padding: 2rem;
+}
+
+.sobre {
+  padding: 3rem 1rem;
+}
+
+.cta-section {
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+section {
+  padding: 3rem 0;
+}
