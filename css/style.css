@@ -82,6 +82,8 @@ button:hover {
   align-items: center;
   background: #f4f4f4;
   text-align: center;
+  background: linear-gradient(to right, #222, #444);
+  color: white;
 }
 
 .hero h2 {
