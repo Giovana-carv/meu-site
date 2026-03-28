@@ -42,7 +42,11 @@ p {
 
 /* CONTAINER */
 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1100px;
+  min-height: 70px;
   margin: auto;
   padding: 0 1rem;
 }
@@ -50,15 +54,12 @@ p {
 /* NAVBAR */
 .navbar {
   padding: 1rem;
-  display: flex;
-  justify-content: space-between;
   position: relative;
   top: 0;
   z-index: 1000;
   background: #222;
   color: #fff;
-  align-items: center;
-  min-height: 70px;
+  
 }
 
 .menu {
@@ -108,12 +109,15 @@ button:hover {
 .hero {
   height: 80vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background: #f4f4f4;
-  text-align: center;
   background: linear-gradient(to right, #222, #444);
   color: white;
+}
+
+.hero .container {  
+  flex-direction: column;
 }
 
 .hero h2 {
