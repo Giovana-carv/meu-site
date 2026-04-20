@@ -15,3 +15,9 @@ if (form) {
     form.reset();
   });
 }
+
+const msg = document.createElement("p"); //Mensagem de confirmação  
+msg.textContent = "Mensagem enviada com sucesso!";
+msg.style.color = "green";
+
+form.appendChild(msg);
