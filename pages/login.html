@@ -1,71 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - MeuSite</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/contato.css">
+  <link rel="stylesheet" href="../css/auth.css">
 </head>
 
 <body>
 
-<header>
-  <nav class="navbar">
-    <div class="container">
-    <h1 class="logo">MeuSite</h1>
-
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-    <ul class="menu">
-      <li><a href="../index.html" class="btn">Home</a></li>
-      <li><a href="login.html" class="btn active">Login</a></li>
-      <li><a href="cadastro.html" class="btn">Cadastro</a></li>
-    </ul>
-    </div>
-  </nav>
-</header>
-
 <main>
-
-  <section class="hero">
-    <div class="container">
-      <h2>Login</h2>
-      <p>Acesse sua conta</p>
-    </div>
-  </section>
-
-  <section class="contato">
-    <div class="container">
-
-      <form class="form-login">
-
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" id="login-email" required>
+  <section class="auth-page">
+    <div class="auth-shell">
+      <div class="auth-panel"></div>
+      <div class="auth-form-side">
+        <div class="auth-copy">
+          <h2>Login</h2>
+          <p>Acesse sua conta</p>
         </div>
 
-        <div class="form-group">
-          <label>Senha</label>
-          <input type="password" id="login-senha" required>
-        </div>
+        <form class="auth-form">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="login-email" required>
+          </div>
 
-        <button type="submit">Entrar</button>
+          <div class="form-group">
+            <label>Senha</label>
+            <input type="password" id="login-senha" required>
+          </div>
 
-        <p>Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
-
-      </form>
-
+          <button type="submit">Entrar</button>
+          <p>Nao tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+        </form>
+      </div>
     </div>
   </section>
-
 </main>
-
-<footer>
-  <div class="container">
-    <p>© 2026 MeuSite</p>
-  </div>
-</footer>
 
 <script src="../js/script.js"></script>
 </body>
